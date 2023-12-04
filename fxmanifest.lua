@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-version '0.1.0'
+version '0.1.1'
 
 ui_page 'hack.html'
 
