@@ -12,7 +12,7 @@ files {
   'phone.png',
   'snd/beep.ogg',
   'snd/correct.ogg',
-  'snd/fail.ogg', 
+  'snd/fail.ogg',
   'snd/start.ogg',
   'snd/finish.ogg',
   'snd/wrong.ogg',
