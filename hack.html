@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"  type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:700" rel="stylesheet">
 <script type="text/javascript">
 	var hex = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
@@ -268,7 +268,7 @@
 			}
 			
 			if ('displayMsg' in item) {
-				setBigMsg('<span class="flash">'+item.displayMsg+'</span>');
+				$( '#screentext' ).empty().append($( '<span>' ).addClass('flash').text(String(item.displayMsg)));
 			}
 			
 			if ('fail' in item) {
